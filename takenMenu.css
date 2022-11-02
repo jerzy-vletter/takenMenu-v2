@@ -1,0 +1,42 @@
+#headerContainer{
+    border: solid black 0.1rem;
+    height: 50vh;
+    width: 50vw;
+    position: relative;
+    margin: auto;
+    height: fit-content;
+}
+
+#container{
+    border-top  : solid black 0.1rem;    
+    display: flex;
+    columns: 2;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    text-align: center;
+}
+
+.h1container{
+    width: 25vw;
+    height: 50vh;
+}
+#test1, #test2, #test3{
+    margin: 0%;
+    vertical-align: middle;
+    text-align: center;
+    height: inherit;
+    line-height: 40vh;
+    cursor: pointer;
+}
+
+#test1{
+    background-color: aqua;
+}
+
+#test2{
+    background-color: aquamarine;
+}
