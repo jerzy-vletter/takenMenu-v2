@@ -81,17 +81,23 @@ body{
 }
 
 #taakstraffen{
+    background-image: url("images/Taakstraf3.jpg");
+    background-size: cover;
     border-radius: 1%;
     margin-right: 2.5px;
     background-color: green;
     color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black
 }
 
 #gevangenisstraffen{
+    background-image: url("images/celstraf.jpg");
+    background-size: cover;
     border-radius: 1%;
     margin-left: 2.5px;
     background-color: orange;
     color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black
 }
 
 .strafToevoegen{
